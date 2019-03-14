@@ -4,6 +4,16 @@
   <description>DC Routing Services</description>
   <ncs-min-version>4.7</ncs-min-version>
 
+  <required-package>
+    <name>arista-dcs</name>
+    <min-version>4.7</min-version>
+  </required-package>
+
+  <required-package>
+    <name>cisco-nx</name>
+    <min-version>4.7</min-version>
+  </required-package>
+
   <component>
     <name>main</name>
     <application>
